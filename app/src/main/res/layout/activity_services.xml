@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Services"
+    android:background="@drawable/og">
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="542dp"
+        android:background="#8CEFE3"
+        android:text="Bluetooth" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="163dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="19dp"
+        android:background="#EDDB99"
+        android:text="wifi" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="172dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="377dp"
+        android:background="#8A99E6"
+        android:text="torch" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="382dp"
+        android:background="#B0EC96"
+        android:text="call" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="170dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="232dp"
+        android:background="#C875E6"
+        android:text="message" />
+
+    <Button
+        android:id="@+id/button125"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="#F69A9A"
+        android:text="Back" />
+
+
+</RelativeLayout>

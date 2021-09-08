@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/og"
+    tools:context=".Emailsignin">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="106dp"
+        android:ems="10"
+        android:hint="write your email"
+        android:inputType="textPersonName"
+        android:textColor="#F6F2F2"
+        android:textColorHint="#F3EDED"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="219dp"
+        android:ems="10"
+        android:hint="write your pasword"
+        android:inputType="textPersonName"
+        android:textColor="#F1EDED"
+        android:textColorHint="#F3EFEF"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="138dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="315dp"
+        android:background="#A1EDED"
+        android:text="register"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginBottom="274dp"
+        android:background="#F4F1F1"
+        android:backgroundTint="#F4EEEE"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="46dp"
+        android:background="#F68B8B"
+        android:text="Back"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="587dp" />
+</RelativeLayout>

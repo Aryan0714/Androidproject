@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Call"
+    android:background="@drawable/aer">
+
+    <EditText
+        android:id="@+id/editText99"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="                        Enter Mobile Number"
+        android:inputType="phone"
+        android:textColor="#B1E151"
+        android:textColorHint="#F9FAF8" />
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="471dp"
+        android:background="#0A8705"
+        android:text="Call"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button88"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/flag_transparent"
+        android:text="Back"
+        android:textColor="#ED3939"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

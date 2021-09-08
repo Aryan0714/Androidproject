@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Webbrowsing"
+    android:background="@drawable/og">
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="59dp"
+        android:background="#85EAD2"
+        android:text="Search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="609dp" />
+
+    <WebView
+        android:layout_width="415dp"
+        android:layout_height="497dp"
+        android:id="@+id/webView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <EditText
+        android:id="@+id/editText88"
+        android:layout_width="412dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="search "
+        android:inputType="textPersonName"
+        android:textColor="#EDE7E7"
+        android:textColorHint="#EDE7E7"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <Button
+        android:id="@+id/button129"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#F19090"
+        android:text="Back" />
+
+
+</RelativeLayout>

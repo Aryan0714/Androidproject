@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Message"
+    android:background="@drawable/aer">
+
+    <EditText
+        android:id="@+id/editText60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:hint="                Enter Reciever Mobile Number"
+        android:inputType="number"
+        android:textColorHint="#F6F5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/editText61"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-8dp"
+        android:layout_marginTop="163dp"
+        android:ems="10"
+        android:hint="        Enter Your Message Here"
+        android:inputType="textPersonName"
+        android:padding="60dp"
+        android:textColor="#F8F5F5"
+        android:textColorHint="#FAF6F6" />
+
+    <Button
+        android:id="@+id/button56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="247dp"
+        android:background="#2196F3"
+        android:text="Send"
+        android:textColorHint="#050505"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button87"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/flag_transparent"
+        android:text="Back"
+        android:textColor="#ED2019"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
